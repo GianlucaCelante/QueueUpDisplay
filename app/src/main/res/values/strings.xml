@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QueueUpDisplay</string>
+    <string name="biglietto_per_cassa_nticket_for_cash_register">Biglietto per cassa \nTicket for cash register</string>
+</resources>
