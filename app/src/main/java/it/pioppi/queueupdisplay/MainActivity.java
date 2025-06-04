@@ -63,7 +63,9 @@ public class MainActivity extends AppCompatActivity {
         numbers = new ArrayList<>();
         adapter = new HistoryAdapter(this, numbers);
         historyList.setAdapter(adapter);
-        historyList.setItemAnimator(new SlideInUpAnimator());
+
+        SlideInUpAnimator animator = new SlideInUpAnimator();
+        historyList.setItemAnimator(animator);
 
         soundPool = new SoundPool(1, AudioManager.STREAM_NOTIFICATION, 0);
         soundId = soundPool.load(this, R.raw.next_number_sound, 1);
